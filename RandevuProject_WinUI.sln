@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandevuProject_WinUI", "RandevuProject_WinUI\RandevuProject_WinUI.csproj", "{FA85BE12-A1EF-42A7-9469-AC5B2188B4FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandevuProject_DLBL", "RandevuProject_DLBL\RandevuProject_DLBL.csproj", "{9A6EA6AE-1070-4948-828B-689BC2B3940F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA85BE12-A1EF-42A7-9469-AC5B2188B4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA85BE12-A1EF-42A7-9469-AC5B2188B4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA85BE12-A1EF-42A7-9469-AC5B2188B4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA85BE12-A1EF-42A7-9469-AC5B2188B4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6EA6AE-1070-4948-828B-689BC2B3940F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6EA6AE-1070-4948-828B-689BC2B3940F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6EA6AE-1070-4948-828B-689BC2B3940F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6EA6AE-1070-4948-828B-689BC2B3940F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1AACB050-2AA2-4AAE-9837-744EE2461510}
+	EndGlobalSection
+EndGlobal

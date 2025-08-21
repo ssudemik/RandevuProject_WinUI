@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Server=MODELSUDE;Database=RandevuDB;Trusted_Connection=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
