@@ -42,6 +42,7 @@
             comboBoxTimePicker = new ComboBox();
             buttonSave = new Button();
             buttonClose = new Button();
+            labelEndTime = new Label();
             SuspendLayout();
             // 
             // label1
@@ -86,7 +87,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(551, 223);
+            label5.Location = new Point(551, 161);
             label5.Name = "label5";
             label5.Size = new Size(93, 20);
             label5.TabIndex = 4;
@@ -117,7 +118,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(551, 164);
+            label6.Location = new Point(551, 102);
             label6.Name = "label6";
             label6.Size = new Size(102, 20);
             label6.TabIndex = 9;
@@ -134,7 +135,7 @@
             // comboBoxAppointment
             // 
             comboBoxAppointment.FormattingEnabled = true;
-            comboBoxAppointment.Location = new Point(695, 156);
+            comboBoxAppointment.Location = new Point(695, 94);
             comboBoxAppointment.Name = "comboBoxAppointment";
             comboBoxAppointment.Size = new Size(250, 28);
             comboBoxAppointment.TabIndex = 11;
@@ -142,10 +143,11 @@
             // comboBoxTimePicker
             // 
             comboBoxTimePicker.FormattingEnabled = true;
-            comboBoxTimePicker.Location = new Point(695, 223);
+            comboBoxTimePicker.Location = new Point(695, 161);
             comboBoxTimePicker.Name = "comboBoxTimePicker";
             comboBoxTimePicker.Size = new Size(250, 28);
             comboBoxTimePicker.TabIndex = 12;
+            comboBoxTimePicker.SelectedIndexChanged += comboBoxTimePicker_SelectedIndexChanged;
             // 
             // buttonSave
             // 
@@ -165,11 +167,21 @@
             buttonClose.Text = "Kapat";
             buttonClose.UseVisualStyleBackColor = true;
             // 
+            // labelEndTime
+            // 
+            labelEndTime.AutoSize = true;
+            labelEndTime.Location = new Point(551, 223);
+            labelEndTime.Name = "labelEndTime";
+            labelEndTime.Size = new Size(0, 20);
+            labelEndTime.TabIndex = 15;
+            labelEndTime.Click += label7_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1016, 414);
+            Controls.Add(labelEndTime);
             Controls.Add(buttonClose);
             Controls.Add(buttonSave);
             Controls.Add(comboBoxTimePicker);
@@ -207,5 +219,6 @@
         private ComboBox comboBoxTimePicker;
         private Button buttonSave;
         private Button buttonClose;
+        private Label labelEndTime;
     }
 }
