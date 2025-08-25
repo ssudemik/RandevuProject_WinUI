@@ -9,9 +9,9 @@ public partial class Randevular
 
     public DateTime CreatedDate { get; set; }
 
-    public string PatientId { get; set; } = null!;
+    public Guid PatientId { get; set; } 
 
-    public string DoctorId { get; set; } = null!;
+    public Guid DoctorId { get; set; } 
 
     public byte AppointmentTypeId { get; set; }
 

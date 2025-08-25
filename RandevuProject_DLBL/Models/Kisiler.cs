@@ -5,7 +5,7 @@ namespace RandevuProject_DLBL.Models;
 
 public partial class Kisiler
 {
-    public string Id { get; set; } = null!;
+    public Guid Id { get; set; } = Guid.NewGuid();
 
     public DateTime CreatedDate { get; set; }
 
@@ -13,7 +13,7 @@ public partial class Kisiler
 
     public string Surname { get; set; } = null!;
 
-    public int? Gender { get; set; }
+    public string? Gender { get; set; }
 
     public string? Email { get; set; }
 
@@ -22,4 +22,5 @@ public partial class Kisiler
     public virtual ICollection<Randevular> RandevularDoctors { get; set; } = new List<Randevular>();
 
     public virtual ICollection<Randevular> RandevularPatients { get; set; } = new List<Randevular>();
+    public string TCNo { get; set; }
 }

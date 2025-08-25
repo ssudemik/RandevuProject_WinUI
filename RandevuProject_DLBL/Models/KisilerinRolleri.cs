@@ -5,7 +5,7 @@ namespace RandevuProject_DLBL.Models;
 
 public partial class KisilerinRolleri
 {
-    public string UserId { get; set; } = null!;
+    public Guid UserId { get; set; } = Guid.NewGuid();
 
     public string RoleId { get; set; } = null!;
 
